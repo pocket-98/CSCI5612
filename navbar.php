@@ -9,7 +9,7 @@
       <a class="brand" href="<?php echo("$homedir"); ?>">Home</a>
       <div class="collapse nav-collapse">
         <ul class="nav">
-          <li><a href="<?php echo("$homedir"); ?>project1/">Project 1</a></li>
+          <li><a href="<?php echo("$homedir"); ?>project1/"><img src="<?php echo("$homedir"); ?>img/new.gif"/>Project 1</a></li>
           <li><a href="<?php echo("$homedir"); ?>notes/">Notes</a></li>
         </ul>
       </div>

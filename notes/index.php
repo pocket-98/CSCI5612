@@ -5,8 +5,8 @@
   <title>csci5612 notes</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="<?php echo("$homedir"); ?>bootstrap.min.css"/>
-  <link rel="stylesheet" href="<?php echo("$homedir"); ?>bootstrap-responsive.css"/>
+  <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/bootstrap-responsive.css"/>
   <meta name="author" content="pocket"/>
 </head>
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
@@ -27,7 +27,7 @@
 ## theme
 * raw html, css, and js
 * inspired by geocities 90's themed websites
-* bootstrap modern css layout with <a href="https://code.divshot.com/geo-bootstrap/">this awesome theme</a>
+* modern bootstrap css layout with <a href="https://code.divshot.com/geo-bootstrap/">this awesome theme</a>
 * php to provide async basic logging of number of visitors to sqlite file to provide website counter
     </pre>
   </div>

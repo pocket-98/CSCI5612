@@ -12,6 +12,19 @@ log_visitor();
   <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/bootstrap.min.css"/>
   <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/bootstrap-responsive.css"/>
   <meta name="author" content="pocket"/>
+<style>
+.display-table {
+    display: table;
+    height: 10px;
+    width: 100%;
+}
+.table-cell-content {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding: 10px;
+}
+</style>
 </head>
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
 
@@ -37,15 +50,40 @@ log_visitor();
   </header>
 
   <div class="subnav">
-    <div class="row">
-      <div class="span3"></div>
-      <div class="span6">
+    <div class="row display-table">
+      <div class="span1 hidden-phone"></div>
+      <div class="span1 hidden-phone table-cell-content">
+        <img src="img/rabbit.gif"/>
+      </div>
+      <div class="span1 hidden-phone table-cell-content">
+        <img src="img/clippy.gif"/>
+      </div>
+      <div class="span6 table-cell-content">
         <marquee>
           <h2>you are visitor number <font color="#ff0000"><?php echo(get_visitor_count()); ?></h2>
         </marquee>
       </div>
-      <div class="span3"></div>
+      <div class="span2 hidden-phone table-cell-content">
+        <img src="img/www.gif"/>
+      </div>
+      <div class="span1"></div>
     </div>
+  </div>
+
+  <div class="row">
+
+    <br/>
+    <hr/>
+    <br/>
+
+    <h2>CSCI 5612 - Machine Learning for Data Scientists</h2>
+    <h3>Project Website</h3>
+
+    <br/>
+
+  </div>
+  <div class="row">
+    <p>In this class, we use <img src="img/firework.gif" width=20/>modern<img src="img/firework.gif" width=20/> techniques for data preparation and analysis to apply both supervised and unsupervised models to real and interesting problems.</p>
   </div>
 </div>
 

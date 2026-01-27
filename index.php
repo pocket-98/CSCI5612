@@ -71,19 +71,21 @@ log_visitor();
   </div>
 
   <div class="row">
+    <div class="span12">
+      <br/>
+      <hr/>
+      <br/>
 
-    <br/>
-    <hr/>
-    <br/>
+      <h2>CSCI 5612 - Machine Learning for Data Scientists</h2>
+      <h3>Project Website</h3>
 
-    <h2>CSCI 5612 - Machine Learning for Data Scientists</h2>
-    <h3>Project Website</h3>
-
-    <br/>
-
+      <br/>
+    </div>
   </div>
   <div class="row">
-    <p>In this class, we use <img src="img/firework.gif" width=20/>modern<img src="img/firework.gif" width=20/> techniques for data preparation and analysis to apply both supervised and unsupervised models to real and interesting problems.</p>
+    <div class="span12">
+      <p>In this class, we use <img src="img/firework.gif" width=20/>modern<img src="img/firework.gif" width=20/> techniques for data preparation and analysis to apply both supervised and unsupervised models and methods to real and interesting problems.</p>
+    </div>
   </div>
 </div>
 

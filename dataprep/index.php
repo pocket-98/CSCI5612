@@ -27,8 +27,18 @@ log_visitor();
     </div>
     <div class="row">
       <div class="span12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <a href="https://www.kaggle.com/datasets/arshkon/linkedin-job-postings"><p>https://www.kaggle.com/datasets/arshkon/linkedin-job-postings</p></a>
+        <ul>
+          <li>500mb, 100k rows</li>
+          <li>scraped job postings from linkedin from 2023-2024</li>
+          <li>columns: company_name, title, description, max_salary, location, views</li>
+        </ul>
+        <a href="https://www.kaggle.com/datasets/ayushtankha/70k-job-applicants-data-human-resource"><p>https://www.kaggle.com/datasets/ayushtankha/70k-job-applicants-data-human-resource</p></a>
+        <ul>
+          <li>13mb, 70k rows</li>
+          <li>stackoverflow survey results from developer job applicants from 2023</li>
+          <li>columns: age, gender, ed_level, years_code_pro, prev_salary, employed</li>
+        </ul>
       </div>
     </div>
   </div>

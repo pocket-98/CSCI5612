@@ -1,0 +1,21 @@
+pre.line-numbers {
+  counter-reset: line;
+  position: relative;
+  padding-left: 3em;
+}
+
+pre.line-numbers code {
+  counter-increment: line;
+  display: block;
+}
+
+pre.line-numbers code::before {
+  content: counter(line);
+  display: inline-block;
+  width: 1.5em;
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+  color: #888;
+  text-align: right;
+  border-right: 1px solid #ddd;
+}

@@ -11,6 +11,7 @@ log_visitor();
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/bootstrap.min.css"/>
   <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/bootstrap-responsive.css"/>
+  <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/line-num.css"/>
   <meta name="author" content="pocket"/>
 </head>
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
@@ -22,11 +23,14 @@ log_visitor();
   <div class="container">
     <div class="row">
       <div class="span12">
-        <h2>Data Prep</h2>
+        <h2>Data Preparation and Exploratory Data Analysis</h2>
       </div>
     </div>
     <div class="row">
       <div class="span12">
+        <br/>
+        <h3>Data Sets</h3>
+        <br/>
         <a href="https://www.kaggle.com/datasets/arshkon/linkedin-job-postings"><p>https://www.kaggle.com/datasets/arshkon/linkedin-job-postings</p></a>
         <ul>
           <li>500mb, 100k rows</li>
@@ -39,6 +43,35 @@ log_visitor();
           <li>stackoverflow survey results from developer job applicants from 2023</li>
           <li>columns: age, gender, ed_level, years_code_pro, prev_salary, employed</li>
         </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span12">
+        <br/>
+        <h3>Obtaining the Data</h3>
+        <br/>
+        <a href="code_get.py"><p>code_get.py</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_get.py", "r");
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+}
+fclose($f);
+?></pre>
+        <br/>
+        <a href="code_get.txt"><p>code_get.py output</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_get.txt", "r");
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+}
+fclose($f);
+?></pre>
+</pre>
       </div>
     </div>
   </div>

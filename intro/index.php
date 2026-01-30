@@ -39,6 +39,9 @@ log_visitor();
       <div class="span12">
         <p>The job market is constantly changing as trends come and go. Salary ranges change, the desired level of experience required fluctuates, and the availability of entry-level vs senior roles varies. In recent years, <a href="https://web.archive.org/web/20251118131916/https://www.forbes.com/sites/carolinecastrillon/2025/11/18/youre-not-bad-at-job-hunting-30-of-job-postings-are-fake/">it has been reported that between 30-40% of job postings are for "ghost jobs"</a> that distorts the view of the labor market and perpetuates a false sense of growth. The use of LLMs has and job applicant HR tracking systems has increased and automation for filtering candidates has become the norm. This has lead to changes in the job applicants and how people portray themselves and apply.
         </p>
+        <br/>
+        <p>While the exact data of real job applicantions for actual listings would be incredible to have, that is confidential and not publically accessible data. The next best source is surveys done where people self report their attributes and whether they are currently employed or not. Luckily, the yearly <a href="https://survey.stackoverflow.co/">Stack Overflow developer survey</a> has data on self reported developers and non-developers and the jobs and skills they have.
+        </p>
       </div>
     </div>
 
@@ -48,9 +51,13 @@ log_visitor();
         <br/>
         <h3>Research Questions</h3>
         <ul>
-          <li>What is your name?</li>
-          <li>What is your quest?</li>
+          <li>What factors in a job application lead to being employed?</li>
+          <li>What factors that are out of an applicants control affect the chances of being employed?</li>
+          <li>What skills tend to be present among top applicants?</li>
+          <li>What demographics are under-represented and do they perform as well in the job market?</li>
         </ul>
+        <br/>
+        <br/>
       </div>
     </div>
   </div>

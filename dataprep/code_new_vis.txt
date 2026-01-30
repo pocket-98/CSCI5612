@@ -1,4 +1,8 @@
 loading from stackoverflow.csv
+number of records: 73462
+removing unused columns: 'Accessibility', 'HaveWorkedWith', 'Employment'
+removing rows of non-devs
+removing outliers of >42 years pro experience
 making bar chart of age
 making bar chart of gender
 making bar chart of developer types

@@ -1,0 +1,24 @@
+loading from stackoverflow.csv
+number of nulls in each col:
+Unnamed: 0         0
+Age                0
+Accessibility      0
+EdLevel            0
+Employment         0
+Gender             0
+MentalHealth       0
+MainBranch         0
+YearsCode          0
+YearsCodePro       0
+Country            0
+PreviousSalary     0
+HaveWorkedWith    63
+ComputerSkills     0
+Employed           0
+dtype: int64
+
+number of records: 73462
+removing unused columns: 'Accessibility', 'HaveWorkedWith', 'Employment'
+removing rows of non-devs
+removing outliers of >42 years pro experience
+cleaned data set number of records: 67265

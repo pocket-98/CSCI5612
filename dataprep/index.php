@@ -72,7 +72,15 @@ while (false !== ($line = fgets($f))) {
 }
 fclose($f);
 ?></pre>
-</pre>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <br/>
+        <a target="_blank" href="raw_data.png">
+          <img src="raw_data.png"></img>
+        </a>
       </div>
     </div>
 
@@ -96,10 +104,25 @@ fclose($f);
     <div class="row">
       <div class="span4">
         <br/>
-        <a target="_blank" href="raw_hist_age.png">
-          <img src="raw_hist_age.png"></img>
+        <a target="_blank" href="raw_bar_age.png">
+          <img src="raw_bar_age.png"></img>
         </a>
       </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="raw_bar_gender.png">
+          <img src="raw_bar_gender.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="raw_bar_dev.png">
+          <img src="raw_bar_dev.png"></img>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
       <div class="span4">
         <br/>
         <a target="_blank" href="raw_hist_years_coding.png">
@@ -112,7 +135,14 @@ fclose($f);
           <img src="raw_hist_years_coding_pro.png"></img>
         </a>
       </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="raw_hist_skills.png">
+          <img src="raw_hist_skills.png"></img>
+        </a>
+      </div>
     </div>
+
     <div class="row">
       <div class="span4">
         <br/>
@@ -122,8 +152,8 @@ fclose($f);
       </div>
       <div class="span4">
         <br/>
-        <a target="_blank" href="raw_hist_skills.png">
-          <img src="raw_hist_skills.png"></img>
+        <a target="_blank" href="raw_scatter_experience_salary.png">
+          <img src="raw_scatter_experience_salary.png"></img>
         </a>
       </div>
       <div class="span4">
@@ -133,6 +163,156 @@ fclose($f);
         </a>
       </div>
     </div>
+
+    <div class="row">
+      <div class="span4"></div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="raw_plot_experience_median_salary.png">
+          <img src="raw_plot_experience_median_salary.png"></img>
+        </a>
+      </div>
+      <div class="span4"></div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <br/>
+        <h4>Comments:</h4>
+        <br/>
+        <p>The age of participants is well balanced between the 2 categories of younger and older than 35. The ratio of men vs other genders present in the survey is vast. Majority (92%)  of the respondents considered themselves professional developers. There is a clear visible shift in the distributions when looking at the general years of experience coding vs professional years of experience indicating most people started coding before they became professional. There seems to be a wide range in the number of computer skills a person may list but the salary ranges are completely spanned from the low end to the very top end regardless of whether no or very few computer skills were listed or not. The scatter plot of pro years experience show that above 40 years is very rare which is further indicated by the drop in the plot of median salaries after 40 years of experience.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <br/>
+        <h3>Cleaning the Data</h3>
+        <br/>
+        <a href="code_clean.py"><p>code_clean.py</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_clean.py", "r");
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+}
+fclose($f);
+?></pre>
+        <br/>
+        <a href="code_clean.txt"><p>code_clean.py output</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_clean.txt", "r");
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+}
+fclose($f);
+?></pre>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <br/>
+        <a target="_blank" href="clean_data.png">
+          <img src="clean_data.png"></img>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <br/>
+        <h3>Visuals of the Cleaned Data</h3>
+        <br/>
+        <a href="code_new_vis.py"><p>code_new_vis.py</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_new_vis.py", "r");
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+}
+fclose($f);
+?></pre>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_bar_age.png">
+          <img src="new_bar_age.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_bar_gender.png">
+          <img src="new_bar_gender.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_bar_dev.png">
+          <img src="new_bar_dev.png"></img>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_hist_years_coding.png">
+          <img src="new_hist_years_coding.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_hist_years_coding_pro.png">
+          <img src="new_hist_years_coding_pro.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_hist_skills.png">
+          <img src="new_hist_skills.png"></img>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_hist_salary.png">
+          <img src="new_hist_salary.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_scatter_experience_salary.png">
+          <img src="new_scatter_experience_salary.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_scatter_skill_salary.png">
+          <img src="new_scatter_skill_salary.png"></img>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span4"></div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="new_plot_experience_median_salary.png">
+          <img src="new_plot_experience_median_salary.png"></img>
+        </a>
+      </div>
+      <div class="span4"></div>
+    </div>
+
   </div>
 
 <?php include("${homedir}footer.php"); ?>

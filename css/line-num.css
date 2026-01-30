@@ -1,7 +1,7 @@
 pre.line-numbers {
   counter-reset: line;
   position: relative;
-  padding-left: 3em;
+  padding-left: 2em;
 }
 
 pre.line-numbers code {
@@ -12,7 +12,7 @@ pre.line-numbers code {
 pre.line-numbers code::before {
   content: counter(line);
   display: inline-block;
-  width: 1.5em;
+  width: 2.5em;
   padding-right: 0.5em;
   margin-right: 0.5em;
   color: #888;

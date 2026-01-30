@@ -35,8 +35,9 @@ log_visitor();
         <ul>
           <li>500mb, 100k rows</li>
           <li>scraped job postings from linkedin from 2023-2024</li>
-          <li>columns: company_name, title, description, max_salary, location, views</li>
+          <li>columns: company_name, company_employee_count, company_follower_count, title, description, max_salary, location, views</li>
         </ul>
+        <br/>
         <a href="https://www.kaggle.com/datasets/ayushtankha/70k-job-applicants-data-human-resource"><p>https://www.kaggle.com/datasets/ayushtankha/70k-job-applicants-data-human-resource</p></a>
         <ul>
           <li>13mb, 70k rows</li>
@@ -72,6 +73,41 @@ while (false !== ($line = fgets($f))) {
 fclose($f);
 ?></pre>
 </pre>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <br/>
+        <h3>Exploring the Data</h3>
+        <br/>
+        <a href="code_raw_vis.py"><p>code_raw_vis.py</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_raw_vis.py", "r");
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+}
+fclose($f);
+?></pre>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span4">
+        <a target="_blank" href="raw_hist_age.png">
+          <img src="raw_hist_age.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <a target="_blank" href="raw_hist_years_coding.png">
+          <img src="raw_hist_years_coding.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <a target="_blank" href="raw_hist_years_coding_pro.png">
+          <img src="raw_hist_years_coding_pro.png"></img>
+        </a>
       </div>
     </div>
   </div>

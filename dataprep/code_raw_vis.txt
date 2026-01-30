@@ -1,0 +1,4 @@
+loading from stackoverflow.csv
+making histogram of age
+making histogram of years coding
+making histogram of professional years coding

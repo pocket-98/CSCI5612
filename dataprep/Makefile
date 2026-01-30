@@ -1,7 +1,7 @@
 # Makefile for generating python outputs from scripts
 
 PYTHON := /usr/bin/python3
-SCRIPTS := code_get.py
+SCRIPTS := code_get.py code_raw_vis.py
 OUTPUTS = $(patsubst %.py,%.txt, $(filter %.py,$(SCRIPTS)))
 
 .PHONY: all clean

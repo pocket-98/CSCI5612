@@ -1,4 +1,4 @@
-extracting stackoverflow_full.csv from https://www.kaggle.com/api/v1/datasets/download/ayushtankha/70k-job-applicants-data-human-resource
+loading from stackoverflow.csv
 Index(['Unnamed: 0', 'Age', 'Accessibility', 'EdLevel', 'Employment', 'Gender',
        'MentalHealth', 'MainBranch', 'YearsCode', 'YearsCodePro', 'Country',
        'PreviousSalary', 'HaveWorkedWith', 'ComputerSkills', 'Employed'],

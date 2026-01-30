@@ -95,18 +95,41 @@ fclose($f);
     </div>
     <div class="row">
       <div class="span4">
+        <br/>
         <a target="_blank" href="raw_hist_age.png">
           <img src="raw_hist_age.png"></img>
         </a>
       </div>
       <div class="span4">
+        <br/>
         <a target="_blank" href="raw_hist_years_coding.png">
           <img src="raw_hist_years_coding.png"></img>
         </a>
       </div>
       <div class="span4">
+        <br/>
         <a target="_blank" href="raw_hist_years_coding_pro.png">
           <img src="raw_hist_years_coding_pro.png"></img>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="raw_hist_salary.png">
+          <img src="raw_hist_salary.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="raw_hist_skills.png">
+          <img src="raw_hist_skills.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="raw_scatter_skill_salary.png">
+          <img src="raw_scatter_skill_salary.png"></img>
         </a>
       </div>
     </div>

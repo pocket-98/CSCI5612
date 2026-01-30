@@ -2,3 +2,6 @@ loading from stackoverflow.csv
 making histogram of age
 making histogram of years coding
 making histogram of professional years coding
+making histogram of previous salary
+making histogram of computer skills
+making scatter of skills vs previous salary

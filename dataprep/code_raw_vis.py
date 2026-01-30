@@ -28,6 +28,30 @@ def make_histogram_years_code_pro(years_code_col, output_png):
     plt.ylabel("Count")
     plt.savefig(output_png)
 
+def make_histogram_salary(salary_col, output_png):
+    plt.figure(figsize=(8,6))
+    plt.hist(x=salary_col, bins=25)
+    plt.title("Applicant Distribution of Previous Job's Salary")
+    plt.xlabel("Previous Salary ($)")
+    plt.ylabel("Count")
+    plt.savefig(output_png)
+
+def make_histogram_skills(skills_col, output_png):
+    plt.figure(figsize=(8,6))
+    plt.hist(x=skills_col, bins=50)
+    plt.title("Applicant Distribution of Number of Computer Skills Listed")
+    plt.xlabel("Applicant Number of Listed Computer Skills")
+    plt.ylabel("Count")
+    plt.savefig(output_png)
+
+def make_scatter_skill_salary(skills_col, salary_col, output_png):
+    plt.figure(figsize=(8,6))
+    plt.scatter(skills_col, salary_col, s=4)
+    plt.title("Applicant Number of Skills vs Previous Job's Salary")
+    plt.xlabel("Applicant Number of Listed Computer Skills")
+    plt.ylabel("Salary ($)")
+    plt.savefig(output_png)
+
 if __name__ == "__main__":
     df = get_kaggle_data()
 
@@ -39,4 +63,13 @@ if __name__ == "__main__":
 
     print("making histogram of professional years coding")
     make_histogram_years_code_pro(df["YearsCodePro"], "raw_hist_years_coding_pro.png")
+
+    print("making histogram of previous salary")
+    make_histogram_salary(df["PreviousSalary"], "raw_hist_salary.png")
+
+    print("making histogram of computer skills")
+    make_histogram_skills(df["ComputerSkills"], "raw_hist_skills.png")
+
+    print("making scatter of skills vs previous salary")
+    make_scatter_skill_salary(df["ComputerSkills"], df["PreviousSalary"], "raw_scatter_skill_salary.png")
 

@@ -1,0 +1,32 @@
+covar:
+                 YearsCodeS  YearsCodeProS  PreviousSalaryS  ComputerSkillsS
+YearsCodeS         1.000015       0.903143         0.392955        -0.019983
+YearsCodeProS      0.903143       1.000015         0.397412        -0.014316
+PreviousSalaryS    0.392955       0.397412         1.000015         0.025314
+ComputerSkillsS   -0.019983      -0.014316         0.025314         1.000015
+performing pca with n=2
+PC1:
+ Eigenvalue: 2.1702
+ Eigenvector: [ 0.6376  0.6385  0.4308 -0.0094]
+ Variance Explained: 54.25 %
+PC2:
+ Eigenvalue: 1.0040
+ Eigenvector: [-0.0346 -0.0278  0.1141  0.9925]
+ Variance Explained: 25.10 %
+Total Variance Explained: 79.35 %
+
+performing pca with n=3
+PC1:
+ Eigenvalue: 2.1702
+ Eigenvector: [ 0.6376  0.6385  0.4308 -0.0094]
+ Variance Explained: 54.25 %
+PC2:
+ Eigenvalue: 1.0040
+ Eigenvector: [-0.0346 -0.0278  0.1141  0.9925]
+ Variance Explained: 25.10 %
+PC3:
+ Eigenvalue: 0.7290
+ Eigenvector: [-0.3057 -0.3005  0.8952 -0.122 ]
+ Variance Explained: 18.22 %
+Total Variance Explained: 97.58 %
+plotting feature importance

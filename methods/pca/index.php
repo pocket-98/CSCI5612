@@ -81,18 +81,70 @@ fclose($f);
     <div class="row">
       <div class="span12">
         <h3>Code</h3>
-        <pre>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </pre>
-        </p>
+        <a href="code_pca.py"><p>code_pca.py</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_pca.py", "r");
+echo("<details><summary>\n");
+$line_no = 0;
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
+}
+echo("</details>\n");
+fclose($f);
+?></pre>
+        <br/>
+        <a href="code_pca.txt"><p>code_pca.py output</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_pca.txt", "r");
+echo("<details><summary>\n");
+$line_no = 0;
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
+}
+echo("</details>\n");
+fclose($f);
+?></pre>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="pca_feature_importance.png">
+          <img src="pca_feature_importance.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="pca_2.png">
+          <img src="pca_2.png"></img>
+        </a>
+      </div>
+      <div class="span4">
+        <br/>
+        <a target="_blank" href="pca_3.png">
+          <img src="pca_3.png"></img>
+        </a>
       </div>
     </div>
 
     <div class="row">
       <div class="span12">
         <h3>Results</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <p>Looking at PC1, which accounts for 54% of the variance in the data in the feature importance plot, it is interesting that it weighs the features <b>YearsCode</b> and <b>YearsCodePro</b> almost equally. This is actually true if you look at every single eigenvector, where the first 2 columns appear approximately equal all throughout. This makes sense because the 2 should be highly correllated and not much additional information is gained by knowing both over one since if someone has been coding professionally for a longer amount of time, then they have been coding overall for much longer as well. The data shows that the covariance between these variables is 90%. This brings up the question of whether the difference between when someone started coding professionally and when they started coding in general is a useful derived feature.</p>
+        <p>Once the 2nd principal component is added, which mainly comprises of the variable of the number of listed <b>ComputerSkills</b>, then 79.3% of the variance is explained. Adding the 3rd component brings the total explained variance up to 97.6%. Only 3 dimensions is necessary to capture over 95% of the data which makes sense because the first 2 features are very highly correlated.</p>
       </div>
     </div>
 

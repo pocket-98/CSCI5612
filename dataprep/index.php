@@ -55,10 +55,17 @@ log_visitor();
 <pre class="line-numbers">
 <?php
 $f = @fopen("code_get.py", "r");
+echo("<details><summary>\n");
+$line_no = 0;
 while (false !== ($line = fgets($f))) {
     $line = rtrim($line);
     echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
 }
+echo("</details>\n");
 fclose($f);
 ?></pre>
         <br/>
@@ -66,10 +73,17 @@ fclose($f);
 <pre class="line-numbers">
 <?php
 $f = @fopen("code_get.txt", "r");
+echo("<details><summary>\n");
+$line_no = 0;
 while (false !== ($line = fgets($f))) {
     $line = rtrim($line);
     echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
 }
+echo("</details>\n");
 fclose($f);
 ?></pre>
       </div>
@@ -93,10 +107,17 @@ fclose($f);
 <pre class="line-numbers">
 <?php
 $f = @fopen("code_raw_vis.py", "r");
+echo("<details><summary>\n");
+$line_no = 0;
 while (false !== ($line = fgets($f))) {
     $line = rtrim($line);
     echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
 }
+echo("</details>\n");
 fclose($f);
 ?></pre>
       </div>
@@ -193,10 +214,17 @@ fclose($f);
 <pre class="line-numbers">
 <?php
 $f = @fopen("code_clean.py", "r");
+echo("<details><summary>\n");
+$line_no = 0;
 while (false !== ($line = fgets($f))) {
     $line = rtrim($line);
     echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
 }
+echo("</details>\n");
 fclose($f);
 ?></pre>
         <br/>
@@ -204,10 +232,17 @@ fclose($f);
 <pre class="line-numbers">
 <?php
 $f = @fopen("code_clean.txt", "r");
+echo("<details><summary>\n");
+$line_no = 0;
 while (false !== ($line = fgets($f))) {
     $line = rtrim($line);
     echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
 }
+echo("</details>\n");
 fclose($f);
 ?></pre>
       </div>
@@ -231,10 +266,17 @@ fclose($f);
 <pre class="line-numbers">
 <?php
 $f = @fopen("code_new_vis.py", "r");
+echo("<details><summary>\n");
+$line_no = 0;
 while (false !== ($line = fgets($f))) {
     $line = rtrim($line);
     echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
 }
+echo("</details>\n");
 fclose($f);
 ?></pre>
       </div>

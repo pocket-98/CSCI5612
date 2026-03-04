@@ -25,6 +25,7 @@ log_visitor();
         <h2>Intro</h2>
       </div>
     </div>
+
     <div class="row">
       <div class="span4"></div>
       <div class="span4">
@@ -35,12 +36,29 @@ log_visitor();
       </div>
       <div class="span4"></div>
     </div>
+
     <div class="row">
       <div class="span12">
         <p>The job market is constantly changing as trends come and go. Salary ranges change, the desired level of experience required fluctuates, and the availability of entry-level vs senior roles varies. In recent years, <a href="https://web.archive.org/web/20251118131916/https://www.forbes.com/sites/carolinecastrillon/2025/11/18/youre-not-bad-at-job-hunting-30-of-job-postings-are-fake/">it has been reported that between 30-40% of job postings are for "ghost jobs"</a> that distorts the view of the labor market and perpetuates a false sense of growth. The use of LLMs has and job applicant HR tracking systems has increased and automation for filtering candidates has become the norm. This has lead to changes in the job applicants and how people portray themselves and apply.
         </p>
         <br/>
         <p>While the exact data of real job applicantions for actual listings would be incredible to have, that is confidential and not publically accessible data. The next best source is surveys done where people self report their attributes and whether they are currently employed or not. Luckily, the yearly <a href="https://survey.stackoverflow.co/">Stack Overflow developer survey</a> has data on self reported developers and non-developers and the jobs and skills they have.  The survey, while subject to reporting bias, provides a wide view of the developer labor market across many types of employment and allows for data exploration of factors associated with employment status among a variety of people.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span4"></div>
+      <div class="span4">
+        <img src="<?php echo("$homedir"); ?>img/stackoverflow.png"></img>
+      </div>
+      <div class="span4"></div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <br/>
+        <p>The yearly survey conducted by stackoverflow typically gets tens of thousands of responses and captures many important trends on what languages and tools developers are using more or less of as well as changes in the job market. Developers are asked basic questions like how long they have been coding and if they are professionally working in the field. There are interesting demographics collected which sometimes includes satisfaction, happiness, and mental health ratings.
         </p>
       </div>
     </div>

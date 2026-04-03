@@ -1,0 +1,12 @@
+eps = 0.600 -> k = 3
+  silhouette: 0.341
+
+eps = 0.500 -> k = 8
+  silhouette: 0.134
+
+eps = 0.400 -> k = 12
+  silhouette: 0.076
+
+eps = 0.300 -> k = 20
+  silhouette: -0.153
+

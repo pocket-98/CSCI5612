@@ -103,3 +103,6 @@ if __name__ == "__main__":
     plot_feature_importance(df.columns, pca, "pca_feature_importance.png")
     plot2d(X_pca, "pca_2.png")
     plot3d(X_pca, "pca_3.png")
+
+    X_pca_df = pd.DataFrame({"PC%d" % (j+1) : X_pca[:,j] for j in range(X_pca.shape[1])})
+    X_pca_df.to_csv("stackoverflow_pca.csv")

@@ -1,0 +1,125 @@
+      support                                      itemsets
+0    0.672312                       frozenset({JavaScript})
+1    0.548018                           frozenset({Docker})
+2    0.547787                         frozenset({HTML/CSS})
+3    0.522637                              frozenset({SQL})
+4    0.489257                              frozenset({Git})
+..        ...                                           ...
+97   0.202619     frozenset({jQuery, HTML/CSS, JavaScript})
+98   0.200044             frozenset({SQL, Git, JavaScript})
+99   0.221829           frozenset({MySQL, SQL, JavaScript})
+100  0.212769  frozenset({Node.js, TypeScript, JavaScript})
+101  0.203954            frozenset({SQL, HTML/CSS, Docker})
+
+[102 rows x 2 columns]
+--------------------
+top 15 support
+--------------------
+                 antecedents                 consequents  antecedent support  consequent support   support  confidence  \
+2      frozenset({HTML/CSS})     frozenset({JavaScript})            0.547787            0.672312  0.498931    0.910812   
+3    frozenset({JavaScript})       frozenset({HTML/CSS})            0.672312            0.547787  0.498931    0.742112   
+4           frozenset({SQL})     frozenset({JavaScript})            0.522637            0.672312  0.400223    0.765778   
+5    frozenset({JavaScript})            frozenset({SQL})            0.672312            0.522637  0.400223    0.595295   
+0    frozenset({JavaScript})         frozenset({Docker})            0.672312            0.548018  0.390618    0.581008   
+1        frozenset({Docker})     frozenset({JavaScript})            0.548018            0.672312  0.390618    0.712783   
+55     frozenset({HTML/CSS})            frozenset({SQL})            0.547787            0.522637  0.349310    0.637675   
+54          frozenset({SQL})       frozenset({HTML/CSS})            0.522637            0.547787  0.349310    0.668361   
+6           frozenset({Git})     frozenset({JavaScript})            0.489257            0.672312  0.339596    0.694105   
+7    frozenset({JavaScript})            frozenset({Git})            0.672312            0.489257  0.339596    0.505117   
+14   frozenset({TypeScript})     frozenset({JavaScript})            0.375114            0.672312  0.337784    0.900483   
+15   frozenset({JavaScript})     frozenset({TypeScript})            0.672312            0.375114  0.337784    0.502422   
+16      frozenset({Node.js})     frozenset({JavaScript})            0.354814            0.672312  0.330250    0.930768   
+17   frozenset({JavaScript})        frozenset({Node.js})            0.672312            0.354814  0.330250    0.491215   
+155  frozenset({JavaScript})  frozenset({SQL, HTML/CSS})            0.672312            0.349310  0.320645    0.476929   
+
+         lift  representativity  leverage  conviction  zhangs_metric   jaccard  certainty  kulczynski  
+2    1.354746               1.0  0.130647    3.674112       0.579051  0.691837   0.727825    0.826462  
+3    1.354746               1.0  0.130647    1.753526       0.799096  0.691837   0.429720    0.826462  
+4    1.139022               1.0  0.048849    1.399049       0.255683  0.503600   0.285229    0.680536  
+5    1.139022               1.0  0.048849    1.179533       0.372469  0.503600   0.152207    0.680536  
+0    1.060198               1.0  0.022179    1.078736       0.173274  0.470788   0.072989    0.646896  
+1    1.060198               1.0  0.022179    1.140910       0.125624  0.470788   0.123507    0.646896  
+55   1.220112               1.0  0.063017    1.317501       0.398933  0.484404   0.240987    0.653018  
+54   1.220112               1.0  0.063017    1.363571       0.377915  0.484404   0.266632    0.653018  
+6    1.032415               1.0  0.010663    1.071244       0.061474  0.413147   0.066506    0.599611  
+7    1.032415               1.0  0.010663    1.032047       0.095816  0.413147   0.031052    0.599611  
+14   1.339383               1.0  0.085590    3.292790       0.405495  0.475992   0.696306    0.701452  
+15   1.339383               1.0  0.085590    1.255854       0.773258  0.475992   0.203729    0.701452  
+16   1.384430               1.0  0.091704    4.733216       0.430389  0.473900   0.788727    0.710992  
+17   1.384430               1.0  0.091704    1.268092       0.847394  0.473900   0.211414    0.710992  
+155  1.365345               1.0  0.085800    1.243980       0.816582  0.457426   0.196128    0.697433  
+
+--------------------
+top 15 confidence
+--------------------
+                           antecedents              consequents  antecedent support  consequent support   support  confidence  \
+186     frozenset({Node.js, HTML/CSS})  frozenset({JavaScript})            0.266679            0.672312  0.258982    0.971135   
+200      frozenset({HTML/CSS, jQuery})  frozenset({JavaScript})            0.209281            0.672312  0.202619    0.968166   
+194    frozenset({HTML/CSS, React.js})  frozenset({JavaScript})            0.242292            0.672312  0.233736    0.964687   
+216   frozenset({Node.js, TypeScript})  frozenset({JavaScript})            0.224635            0.672312  0.212769    0.947174   
+180  frozenset({HTML/CSS, TypeScript})  frozenset({JavaScript})            0.275562            0.672312  0.260726    0.946158   
+174       frozenset({MySQL, HTML/CSS})  frozenset({JavaScript})            0.266570            0.672312  0.248655    0.932792   
+16                frozenset({Node.js})  frozenset({JavaScript})            0.354814            0.672312  0.330250    0.930768   
+29                 frozenset({jQuery})  frozenset({JavaScript})            0.256298            0.672312  0.238505    0.930576   
+139       frozenset({Node.js, Docker})  frozenset({JavaScript})            0.233000            0.672312  0.216706    0.930067   
+162         frozenset({HTML/CSS, AWS})  frozenset({JavaScript})            0.246298            0.672312  0.228395    0.927315   
+168  frozenset({HTML/CSS, PostgreSQL})  frozenset({JavaScript})            0.238110            0.672312  0.219295    0.920982   
+110      frozenset({HTML/CSS, Docker})  frozenset({JavaScript})            0.307674            0.672312  0.283110    0.920161   
+150         frozenset({SQL, HTML/CSS})  frozenset({JavaScript})            0.349310            0.672312  0.320645    0.917938   
+156         frozenset({HTML/CSS, Git})  frozenset({JavaScript})            0.278628            0.672312  0.255630    0.917461   
+19               frozenset({React.js})  frozenset({JavaScript})            0.336449            0.672312  0.306734    0.911683   
+
+         lift  representativity  leverage  conviction  zhangs_metric   jaccard  certainty  kulczynski  
+186  1.444472               1.0  0.079690   11.352518       0.419606  0.380850   0.911914    0.678173  
+200  1.440056               1.0  0.061917   10.293704       0.386461  0.298419   0.902853    0.634771  
+194  1.434881               1.0  0.070840    9.279634       0.399994  0.343292   0.892237    0.656174  
+216  1.408831               1.0  0.061744    6.203130       0.374265  0.310984   0.838791    0.631823  
+180  1.407321               1.0  0.075462    6.086157       0.399524  0.379431   0.835693    0.666982  
+174  1.387439               1.0  0.069436    4.875704       0.380742  0.360250   0.794901    0.651321  
+16   1.384430               1.0  0.091704    4.733216       0.430389  0.473900   0.788727    0.710992  
+29   1.384144               1.0  0.066193    4.720118       0.373176  0.345606   0.788141    0.642665  
+139  1.383386               1.0  0.060057    4.685725       0.361325  0.314702   0.786586    0.626198  
+162  1.379293               1.0  0.062807    4.508334       0.364854  0.330905   0.778189    0.633516  
+168  1.369874               1.0  0.059211    4.147002       0.354389  0.317300   0.758862    0.623581  
+110  1.368653               1.0  0.076257    4.104374       0.389058  0.406256   0.756358    0.670630  
+150  1.365345               1.0  0.085800    3.993157       0.411232  0.457426   0.749572    0.697433  
+156  1.364637               1.0  0.068305    3.970116       0.370411  0.367650   0.748118    0.648843  
+19   1.356042               1.0  0.080536    3.710346       0.395688  0.436927   0.730483    0.683961  
+
+--------------------
+top 15 lift
+--------------------
+                             antecedents                          consequents  antecedent support  consequent support  \
+219                 frozenset({Node.js})  frozenset({TypeScript, JavaScript})            0.354814            0.337784   
+218  frozenset({TypeScript, JavaScript})                 frozenset({Node.js})            0.337784            0.354814   
+106                 frozenset({Node.js})                frozenset({React.js})            0.354814            0.336449   
+107                frozenset({React.js})                 frozenset({Node.js})            0.336449            0.354814   
+220              frozenset({TypeScript})     frozenset({Node.js, JavaScript})            0.375114            0.330250   
+217     frozenset({Node.js, JavaScript})              frozenset({TypeScript})            0.330250            0.375114   
+102                 frozenset({Node.js})              frozenset({TypeScript})            0.354814            0.375114   
+103              frozenset({TypeScript})                 frozenset({Node.js})            0.375114            0.354814   
+105                frozenset({React.js})              frozenset({TypeScript})            0.336449            0.375114   
+104              frozenset({TypeScript})                frozenset({React.js})            0.375114            0.336449   
+198    frozenset({HTML/CSS, JavaScript})                  frozenset({jQuery})            0.498931            0.256298   
+203                  frozenset({jQuery})    frozenset({HTML/CSS, JavaScript})            0.256298            0.498931   
+141                 frozenset({Node.js})      frozenset({Docker, JavaScript})            0.354814            0.390618   
+140      frozenset({Docker, JavaScript})                 frozenset({Node.js})            0.390618            0.354814   
+199      frozenset({jQuery, JavaScript})                frozenset({HTML/CSS})            0.238505            0.547787   
+
+      support  confidence      lift  representativity  leverage  conviction  zhangs_metric   jaccard  certainty  kulczynski  
+219  0.212769    0.599662  1.775283               1.0  0.092918    1.654143       0.676874  0.443425   0.395457    0.614779  
+218  0.212769    0.629896  1.775283               1.0  0.092918    1.743253       0.659467  0.443425   0.426360    0.614779  
+106  0.206706    0.582575  1.731542               1.0  0.087329    1.589630       0.654819  0.426587   0.370923    0.598475  
+107  0.206706    0.614375  1.731542               1.0  0.087329    1.673093       0.636695  0.426587   0.402305    0.598475  
+220  0.212769    0.567210  1.717519               1.0  0.088887    1.547519       0.668546  0.431934   0.353804    0.605738  
+217  0.212769    0.644266  1.717519               1.0  0.088887    1.756608       0.623762  0.431934   0.430721    0.605738  
+102  0.224635    0.633107  1.687771               1.0  0.091539    1.703182       0.631605  0.444564   0.412864    0.615976  
+103  0.224635    0.598845  1.687771               1.0  0.091539    1.608321       0.652123  0.444564   0.378234    0.615976  
+105  0.207905    0.617939  1.647336               1.0  0.081698    1.635565       0.592206  0.412789   0.388591    0.586091  
+104  0.207905    0.554244  1.647336               1.0  0.081698    1.488598       0.628850  0.412789   0.328227    0.586091  
+198  0.202619    0.406106  1.584508               1.0  0.074744    1.252247       0.736204  0.366658   0.201435    0.598333  
+203  0.202619    0.790559  1.584508               1.0  0.074744    2.392416       0.496017  0.366658   0.582013    0.598333  
+141  0.216706    0.610759  1.563570               1.0  0.078109    1.565564       0.558657  0.409864   0.361253    0.582768  
+140  0.216706    0.554777  1.563570               1.0  0.078109    1.449128       0.591481  0.409864   0.309930    0.582768  
+199  0.202619    0.849537  1.550854               1.0  0.071969    3.005484       0.466443  0.347144   0.667275    0.609712  
+

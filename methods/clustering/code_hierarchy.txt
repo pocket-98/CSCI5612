@@ -1,0 +1,12 @@
+k = 2
+  silhouette: 0.364
+
+k = 3
+  silhouette: 0.267
+
+k = 4
+  silhouette: 0.246
+
+k = 5
+  silhouette: 0.193
+

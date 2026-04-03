@@ -1,0 +1,16 @@
+skills (116):
+('JavaScript', 'Docker', 'HTML/CSS', 'SQL', 'Git', 'AWS', 'Python', 'PostgreSQL', 'MySQL', 'TypeScript', 'Node.js', 'React.js', 'Java', 'Bash/Shell', 'C#', 'Microsoft SQL Server', 'SQLite', 'jQuery', 'Microsoft Azure', 'MongoDB', 'npm', 'Redis', 'PHP', 'Yarn', 'Kubernetes', 'Angular', 'Express', 'C++', 'ASP.NET Core ', 'Vue.js', 'MariaDB', 'Elasticsearch', 'C', 'ASP.NET', 'Heroku', 'Firebase', 'DigitalOcean', 'PowerShell', 'Google Cloud Platform', 'Oracle', 'Go', 'Flask', 'Homebrew', 'Django', 'Terraform', 'Angular.js', 'Ansible', 'Kotlin', 'Google Cloud', 'DynamoDB', 'Laravel', 'Ruby', 'Spring', 'Rust', 'Ruby on Rails', 'Unity 3D', 'Dart', 'Swift', 'Next.js', 'VBA', 'R', 'Groovy', 'FastAPI', 'Symfony', 'Gatsby', 'Assembly', 'Scala', 'Firebase Realtime Database', 'Objective-C', 'Delphi', 'Cloud Firestore', 'Svelte', 'Perl', 'VMware', 'Cassandra', 'Elixir', 'Xamarin', 'Drupal', 'Unreal Engine', 'IBM DB2', 'Clojure', 'Managed Hosting', 'Matlab', 'Blazor', 'Puppet', 'Haskell', 'Nuxt.js', 'Chef', 'Lua', 'Couchbase', 'OVH', 'MATLAB', 'Linode', 'IBM Cloud or Watson', 'Oracle Cloud Infrastructure', 'F#', 'Deno', 'Julia', 'LISP', 'Flow', 'Phoenix', 'Erlang', 'Neo4j', 'Fastify', 'Pulumi', 'OpenStack', 'COBOL', 'Solidity', 'CouchDB', 'Crystal', 'Colocation', 'Fortran', 'APL', 'Play Framework', 'SAS', 'OCaml')
+       JavaScript  Docker  HTML/CSS    SQL  ...    APL  Play Framework    SAS  OCaml
+0           False   False     False  False  ...  False           False  False  False
+1            True   False      True   True  ...  False           False  False  False
+2           False   False     False  False  ...  False           False  False  False
+3            True   False      True   True  ...  False           False  False  False
+4           False   False     False  False  ...  False           False  False  False
+...           ...     ...       ...    ...  ...    ...             ...    ...    ...
+73394        True    True      True  False  ...  False           False  False  False
+73395        True   False      True  False  ...  False           False  False  False
+73396        True    True      True  False  ...  False           False  False  False
+73397        True   False      True   True  ...  False           False  False  False
+73398       False    True     False  False  ...  False           False  False  False
+
+[73399 rows x 116 columns]

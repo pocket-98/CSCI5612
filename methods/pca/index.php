@@ -116,6 +116,7 @@ while (false !== ($line = fgets($f))) {
 echo("</details>\n");
 fclose($f);
 ?></pre>
+        <p>The final transformed pca data can be found here: <a href="stackoverflow_pca.csv">stackoverflow_pca.csv</a>.</p>
       </div>
     </div>
 

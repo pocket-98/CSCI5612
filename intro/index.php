@@ -58,7 +58,10 @@ log_visitor();
     <div class="row">
       <div class="span12">
         <br/>
-        <p>The yearly survey conducted by stackoverflow typically gets tens of thousands of responses and captures many important trends on what languages and tools developers are using more or less of as well as changes in the job market. Developers are asked basic questions like how long they have been coding and if they are professionally working in the field. There are interesting demographics collected which sometimes includes satisfaction, happiness, and mental health ratings.
+        <p>The yearly survey conducted by stackoverflow typically gets tens of thousands of responses and captures many important trends on what languages and tools developers are using more or less of as well as changes in the job market. Developers are asked basic questions like how long they have been coding, salary, and if they are professionally working in the field. There are interesting demographics collected which sometimes includes satisfaction, happiness, and mental health ratings.
+        </p>
+        <br/>
+        <p>This data is useful for informing the answers to all sorts of questions. By comparing the list of skills held by experienced, well-compensated developers to the skills the general population of developers have, we can see what technologies and languages the highest paid engineers know. By classifying
         </p>
       </div>
     </div>

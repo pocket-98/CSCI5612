@@ -86,7 +86,17 @@ log_visitor();
     <div class="span12">
       <p>In this class, we use <img src="img/firework.gif" width=20/>modern<img src="img/firework.gif" width=20/> techniques for data preparation and analysis to apply both supervised and unsupervised models and methods to real and interesting problems.</p>
       <p>All of the source code for the different models can be found on <a href="https://github.com/pocket-98/CSCI5612">github</a>.</p>
+      <br/><br/>
     </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span3"></div>
+    <div class="span6 embed-responsive">
+      <iframe style="width: 100%; height:400px" src="https://www.youtube.com/embed/l8mMFXOmEOs">
+      </iframe>
+      <br/><br/>
+    </div>
+    <div class="span3"></div>
   </div>
 </div>
 

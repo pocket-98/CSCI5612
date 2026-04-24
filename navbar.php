@@ -14,13 +14,13 @@
           <li class="dropdown">
             <a href="<?php echo("$homedir"); ?>methods/" class="dropdown-toggle" data-toggle="dropdown"><img src="<?php echo("$homedir"); ?>img/new.gif"/>Models/Methods <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="<?php echo("$homedir"); ?>methods/pca/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Principal Component Analysis</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/clustering/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Clustering</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/arm/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Association Rule Mining</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/dt/">Decision Tree</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/nb/">Naive Bayes</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/pca/">Principal Component Analysis</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/clustering/">Clustering</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/arm/">Association Rule Mining</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/dt/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Decision Tree</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/nb/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Naive Bayes</a></li>
               <li><a href="<?php echo("$homedir"); ?>methods/svm/">Support Vector Machine</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/regression/">Regression</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/regression/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Regression</a></li>
             </ul>
           </li>
           <li><a href="<?php echo("$homedir"); ?>conclusion/">Conclusion</a></li>

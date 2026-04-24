@@ -22,7 +22,7 @@ log_visitor();
   <div class="container">
     <div class="row">
       <div class="span12">
-        <h2>Decision Tree</h2>
+        <h2>Decision Trees</h2>
       </div>
     </div>
 

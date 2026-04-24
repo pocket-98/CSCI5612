@@ -17,13 +17,14 @@
               <li><a href="<?php echo("$homedir"); ?>methods/pca/">Principal Component Analysis</a></li>
               <li><a href="<?php echo("$homedir"); ?>methods/clustering/">Clustering</a></li>
               <li><a href="<?php echo("$homedir"); ?>methods/arm/">Association Rule Mining</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/dt/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Decision Tree</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/nb/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Naive Bayes</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/svm/">Support Vector Machine</a></li>
-              <li><a href="<?php echo("$homedir"); ?>methods/regression/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Regression</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/dt/">Decision Trees</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/nb/">Naive Bayes</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/regression/">Regression</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/svm/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Support Vector Machines</a></li>
+              <li><a href="<?php echo("$homedir"); ?>methods/ensemble/"><img width="15px" src="<?php echo("$homedir"); ?>img/new-spin.gif"/>Ensembles</a></li>
             </ul>
           </li>
-          <li><a href="<?php echo("$homedir"); ?>conclusion/">Conclusion</a></li>
+          <li><a href="<?php echo("$homedir"); ?>conclusion/"><img src="<?php echo("$homedir"); ?>img/new.gif"/>Conclusion</a></li>
           <li><a href="<?php echo("$homedir"); ?>notes/">Notes</a></li>
         </ul>
       </div>

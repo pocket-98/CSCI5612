@@ -1,0 +1,5 @@
+logistic regression accuracy: 0.7522
+
+confusion matrix
+[[3946 1700]
+ [1415 5510]]

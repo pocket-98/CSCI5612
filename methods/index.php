@@ -40,10 +40,11 @@ log_visitor();
           <li><a href="pca/">Principal Component Analysis</a></li>
           <li><a href="clustering/">Clustering</a></li>
           <li><a href="arm/">Association Rule Mining</a></li>
-          <li><a href="dt/">Decision Tree</a></li>
+          <li><a href="dt/">Decision Trees</a></li>
           <li><a href="nb/">Naive Bayes</a></li>
-          <li><a href="svm/">Support Vector Machine</a></li>
           <li><a href="regression/">Regression</a></li>
+          <li><a href="svm/">Support Vector Machines</a></li>
+          <li><a href="ensemble/">Ensembles</a></li>
         </ul>
       </div>
     </div>

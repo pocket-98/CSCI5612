@@ -118,7 +118,6 @@ fclose($f);
       <div class="span3"></div>
     </div>
 
-
     <div class="row">
       <div class="span12">
         <h3>Code</h3>
@@ -167,6 +166,7 @@ fclose($f);
         </p>
       </div>
     </div>
+
     <div class="row">
       <div class="span6">
         <img src="dt.png"/>

@@ -1,0 +1,5 @@
+gaussian kernel svm accuracy: 0.7797
+
+confusion matrix
+[[4021 1625]
+ [1144 5781]]

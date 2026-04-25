@@ -11,6 +11,7 @@ log_visitor();
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/bootstrap.min.css"/>
   <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/bootstrap-responsive.css"/>
+  <link rel="stylesheet" href="<?php echo("$homedir"); ?>css/line-num.css"/>
   <meta name="author" content="pocket"/>
 </head>
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">

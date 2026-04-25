@@ -1,0 +1,5 @@
+gaussian nb accuracy: 0.7680
+
+confusion matrix
+[[4590 1056]
+ [1861 5064]]

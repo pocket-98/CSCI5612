@@ -111,12 +111,52 @@ fclose($f);
     </div>
 
     <div class="row">
+      <div class="span3"></div>
+      <div class="span6">
+        <img src="clean_data.png"/>
+      </div>
+      <div class="span3"></div>
+    </div>
+
+
+    <div class="row">
       <div class="span12">
         <h3>Code</h3>
-        <pre>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </pre>
-        </p>
+        <a href="code_dt.py"><p>code_dt.py</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_dt.py", "r");
+echo("<details><summary>\n");
+$line_no = 0;
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
+}
+echo("</details>\n");
+fclose($f);
+?></pre>
+        <br/>
+        <a href="code_dt.txt"><p>code_dt.py output</p></a>
+<pre class="line-numbers">
+<?php
+$f = @fopen("code_dt.txt", "r");
+echo("<details><summary>\n");
+$line_no = 0;
+while (false !== ($line = fgets($f))) {
+    $line = rtrim($line);
+    echo("<code>${line}\n</code>");
+    $line_no += 1;
+    if ($line_no > 3) {
+        echo("</summary>");
+    }
+}
+echo("</details>\n");
+fclose($f);
+?></pre>
       </div>
     </div>
 
@@ -125,6 +165,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <h3>Results</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span6">
+        <img src="dt.png"/>
+      </div>
+      <div class="span6">
+        <img src="dt_conf.png"/>
       </div>
     </div>
 

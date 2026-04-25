@@ -1,0 +1,5 @@
+dt accuracy: 0.7548
+
+confusion matrix
+[[3989 1657]
+ [1425 5500]]
